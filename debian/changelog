@@ -1,0 +1,5 @@
+golang-uuid (0.0~git20140515-1) precise; urgency=low
+
+  * Initial release.
+
+ -- Joachim Bauch <bauch@struktur.de>  Thu, 15 May 2014 11:09:12 +0200
