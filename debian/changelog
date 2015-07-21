@@ -1,3 +1,9 @@
+golang-uuid (0.0~git20150721-1) precise; urgency=low
+
+  * Update to latest upstream source.
+
+ -- Joachim Bauch <bauch@struktur.de>  Tue, 21 Jul 2015 11:18:38 +0200
+
 golang-uuid (0.0~git20140515-1.1) precise; urgency=low
 
   * Non-maintainer upload.
