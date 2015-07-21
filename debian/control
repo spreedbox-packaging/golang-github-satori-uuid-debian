@@ -1,7 +1,8 @@
 Source: golang-uuid
 Section: devel
 Priority: extra
-Maintainer: Joachim Bauch <bauch@struktur.de>
+Maintainer: struktur AG <opensource@struktur.de>
+Uploaders: Joachim Bauch <bauch@struktur.de>
 Build-Depends: debhelper (>= 8.0.0),
                dh-golang,
                golang-go (>= 1.0)
