@@ -1,3 +1,10 @@
+golang-github-satori-uuid (1.1.0-1struktur0) precise; urgency=medium
+
+  * Imported Upstream version 1.1.0
+  * Rename package to avoid conflict
+
+ -- Simon Eisenmann <simon@struktur.de>  Wed, 03 Aug 2016 12:04:48 +0200
+
 golang-github-satori-uuid (0.0~git20150721-1) precise; urgency=low
 
   * Update to latest upstream source.
