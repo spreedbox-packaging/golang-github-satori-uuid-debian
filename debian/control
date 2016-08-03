@@ -1,14 +1,21 @@
-Source: golang-uuid
+Source: golang-github-satori-uuid
 Section: devel
 Priority: extra
 Maintainer: struktur AG <opensource@struktur.de>
-Uploaders: Joachim Bauch <bauch@struktur.de>
-Build-Depends: debhelper (>= 8.0.0),
+Uploaders: 
+ Joachim Bauch <bauch@struktur.de>,
+ Simon Eisenmann <simon@struktur.de>
+Build-Depends: debhelper (>= 9),
                dh-golang,
-               golang-go (>= 1.0)
-Standards-Version: 3.9.3
+               golang-go
+Homepage: https://github.com/satori/go.uuid
+Standards-Version: 3.9.5
 
-Package: golang-uuid-dev
+Package: golang-github-satori-uuid-dev
+Provides: golang-uuid-dev
+Breaks: golang-uuid-dev (<< 0.0~)
+Replaces: golang-uuid-dev (<< 0.0~)
+Built-Using: ${misc:Built-Using}
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Universally Unique Identifier (UUID) implementation for Go.
@@ -22,3 +29,12 @@ Description: Universally Unique Identifier (UUID) implementation for Go.
  Version 3, based on MD5 hashing (RFC 4122)
  Version 4, based on random numbers (RFC 4122)
  Version 5, based on SHA-1 hashing (RFC 4122)
+
+Package: golang-uuid-dev
+Section: oldlibs
+Architecture: all
+Depends: ${misc:Depends}, golang-github-satori-uuid-dev
+Description: Transitional package for golang-github-satori-uuid-dev
+ This is a transitional package to ease upgrades to the
+ golang-github-satori-uuid-dev package.
+

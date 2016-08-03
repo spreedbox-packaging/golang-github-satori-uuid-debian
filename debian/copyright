@@ -1,11 +1,12 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: go.uuid
+Upstream-Contact: Maxim Bublis <b@codemonkey.ru>
 Source: https://github.com/satori/go.uuid
 
 Files: *
-Copyright: 2013 by Maxim Bublis <b@codemonkey.ru>
-License: Expat
- Copyright (C) 2013 by Maxim Bublis <b@codemonkey.ru>
+Copyright: 2013-2016 by Maxim Bublis <b@codemonkey.ru>
+License: MIT
+ Copyright (C) 2013-2016 by Maxim Bublis <b@codemonkey.ru>
  .
  Permission is hereby granted, free of charge, to any person obtaining
  a copy of this software and associated documentation files (the

@@ -1,4 +1,4 @@
-golang-uuid (0.0~git20150721-1) precise; urgency=low
+golang-github-satori-uuid (0.0~git20150721-1) precise; urgency=low
 
   * Update to latest upstream source.
 
